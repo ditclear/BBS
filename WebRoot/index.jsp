@@ -116,11 +116,11 @@
 	</s:iterator>
 	<!--栏目-->
 	</div>
-	<s:debug></s:debug>
 	<div id="footer">
-  <div align="center">博爱论坛系统 &copy; 2015 重庆文理学院 软件工程学院李庆香 版权所有   ICP证1000001号 </div>
-  <div align="center">关于我们 · 联系方式 · 意见反馈 · 帮助中心</div>
-</div>
+		<div align="center">博爱论坛系统 &copy; VIENAN
+			ICP证1000001号</div>
+		<div align="center">关于我们 · 联系方式 · 意见反馈 · 帮助中心</div>
+	</div>
 <script>
 $("button").click(function(){
 
