@@ -1,0 +1,375 @@
+.viewthread {
+	PADDING-BOTTOM: 1px
+}
+.viewthread TABLE {
+	TABLE-LAYOUT: fixed
+}
+#pmprompt TABLE {
+	TABLE-LAYOUT: fixed
+}
+#forumlinks {
+	TABLE-LAYOUT: fixed
+}
+#pmlist {
+	TABLE-LAYOUT: fixed
+}
+#specialpost {
+	TABLE-LAYOUT: fixed
+}
+#newpost {
+	TABLE-LAYOUT: fixed
+}
+#editpost {
+	TABLE-LAYOUT: fixed
+}
+.viewthread INS {
+	DISPLAY: block; BACKGROUND: #f7f7f7; MARGIN-BOTTOM: 1px; LINE-HEIGHT: 26px; BORDER-BOTTOM: #cad9ea 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.mainbox INS {
+	DISPLAY: block; BACKGROUND: #f7f7f7; MARGIN-BOTTOM: 1px; LINE-HEIGHT: 26px; BORDER-BOTTOM: #cad9ea 1px solid; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+INS.logininfo {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #e8f3fd; PADDING-BOTTOM: 2px; COLOR: #666; BORDER-TOP-STYLE: none; LINE-HEIGHT: 22px; PADDING-TOP: 2px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-ALIGN: left; BORDER-BOTTOM-STYLE: none
+}
+.viewthread INS {
+	COLOR: #090
+}
+.viewthread INS A {
+	COLOR: #090
+}
+.viewthread TD.postcontent {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; OVERFLOW: hidden; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.viewthread TD.postauthor {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; OVERFLOW: hidden; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.postinfo {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; COLOR: #666; LINE-HEIGHT: 26px; PADDING-TOP: 0px; BORDER-BOTTOM: #cad9ea 1px solid; HEIGHT: 26px
+}
+.postinfo STRONG {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FLOAT: right; PADDING-BOTTOM: 0px; CURSOR: pointer; COLOR: #069; LINE-HEIGHT: 26px! important; PADDING-TOP: 0px
+}
+.postinfo EM {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FLOAT: right; PADDING-BOTTOM: 0px; CURSOR: pointer; COLOR: #069; LINE-HEIGHT: 26px! important; PADDING-TOP: 0px
+}
+.postinfo STRONG {
+	FONT-WEIGHT: bold; MARGIN-LEFT: 5px; COLOR: #090
+}
+* HTML .postinfo STRONG {
+	MARGIN-TOP: -2px
+}
+.postinfo STRONG SUP {
+	FONT-WEIGHT: normal; MARGIN-LEFT: 1px; COLOR: #999
+}
+.postinfo A {
+	COLOR: #069
+}
+.postinfo LABEL {
+	CURSOR: pointer; COLOR: #090
+}
+.postmessage {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; OVERFLOW-X: hidden; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.postmessage * {
+	LINE-HEIGHT: normal
+}
+.pmmessage * {
+	LINE-HEIGHT: normal
+}
+.register * {
+	LINE-HEIGHT: normal
+}
+.postmessage H2 {
+	FONT-SIZE: 1.17em; MARGIN-BOTTOM: 0.5em
+}
+.t_msgfont {
+	FONT-SIZE: 14px; LINE-HEIGHT: 1.6em
+}
+.t_msgfont TD {
+	FONT-SIZE: 14px; LINE-HEIGHT: 1.6em
+}
+.t_smallfont {
+	FONT-SIZE: 12px; LINE-HEIGHT: 1.6em
+}
+.t_smallfont TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 1.6em
+}
+.t_bigfont {
+	FONT-SIZE: 16px; LINE-HEIGHT: 1.6em
+}
+.t_bigfont TD {
+	FONT-SIZE: 16px; LINE-HEIGHT: 1.6em
+}
+.t_msgfont * {
+	LINE-HEIGHT: normal
+}
+.t_smallfont * {
+	LINE-HEIGHT: normal
+}
+.t_bigfont * {
+	LINE-HEIGHT: normal
+}
+.t_msgfont A {
+	COLOR: #069
+}
+.t_smallfont A {
+	COLOR: #069
+}
+.t_bigfont A {
+	COLOR: #069
+}
+.postratings {
+	FLOAT: right
+}
+.signatures {
+	BACKGROUND: url(../../images/default/sigline.gif) no-repeat 0px 0px; MARGIN: 10px; OVERFLOW: hidden; COLOR: #666; LINE-HEIGHT: 1.6em; PADDING-TOP: 20px
+}
+.signatures * {
+	LINE-HEIGHT: normal
+}
+.signatures STRONG {
+	FONT-WEIGHT: bold
+}
+.postactions {
+	PADDING-RIGHT: 10px; BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 10px; BACKGROUND: #f7f7f7; PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-TOP: 0px; HEIGHT: 30px
+}
+.postactions STRONG {
+	CURSOR: pointer
+}
+.postactions INPUT {
+	FLOAT: right; MARGIN: 5px 0px 0px 5px
+}
+.postactions P {
+	FLOAT: right
+}
+.postmessage .box {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 5px 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.postmessage .typeoption {
+	WIDTH: 500px
+}
+.typeoption TBODY TH {
+	WIDTH: 100px
+}
+.typeoption TBODY TD {
+	BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM: #e8e8e8 1px dashed
+}
+.typeoption TBODY TH {
+	BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM: #e8e8e8 1px dashed
+}
+.postmessage .box TBODY TH {
+	BORDER-TOP-COLOR: #e8e8e8
+}
+.postmessage .box TBODY TD {
+	BORDER-TOP-COLOR: #e8e8e8
+}
+.postmessage FIELDSET {
+	BORDER-RIGHT: #cad9ea 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #cad9ea 1px solid; MARGIN-TOP: 2em; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; BORDER-LEFT: #cad9ea 1px solid; WIDTH: 500px; PADDING-TOP: 10px; BORDER-BOTTOM: #cad9ea 1px solid
+}
+.postmessage FIELDSET LI {
+	COLOR: #999; LINE-HEIGHT: 1.6em
+}
+.postmessage FIELDSET LI CITE {
+	MARGIN: auto 10px
+}
+.postmessage FIELDSET LI EM {
+	MARGIN: auto 10px
+}
+.t_msgfont LI {
+	MARGIN-LEFT: 2em
+}
+.t_bigfont LI {
+	MARGIN-LEFT: 2em
+}
+.t_smallfont LI {
+	MARGIN-LEFT: 2em
+}
+.faq LI {
+	MARGIN-LEFT: 2em
+}
+.postattach {
+	MARGIN: 10px 0px; WIDTH: 500px
+}
+.postattachlist {
+	MARGIN-TOP: 2em; FONT-SIZE: 12px; WIDTH: 500px
+}
+.t_attach {
+	BORDER-RIGHT: #e8e8e8 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 12px; BACKGROUND: #fff; PADDING-BOTTOM: 5px; BORDER-LEFT: #e8e8e8 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #e8e8e8 1px solid
+}
+.t_attach EM {
+	COLOR: #999
+}
+.t_attachlist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #e8e8e8 1px dashed
+}
+.t_attachlist DT {
+	FONT-WEIGHT: bold
+}
+.t_attachlist DT IMG {
+	MARGIN-BOTTOM: -4px
+}
+.t_attachlist DD {
+	PADDING-LEFT: 20px; COLOR: #999
+}
+.t_attachinsert {
+	FONT-SIZE: 12px; MARGIN: 1em 0px
+}
+.t_attachinsert P IMG {
+	MARGIN-BOTTOM: -4px
+}
+.t_table {
+	BORDER-RIGHT: #cad9ea 1px solid; BORDER-TOP: #cad9ea 1px solid; BORDER-LEFT: #cad9ea 1px solid; BORDER-BOTTOM: #cad9ea 1px solid; BORDER-COLLAPSE: collapse; empty-cells: show
+}
+.t_table TD {
+	BORDER-RIGHT: #cad9ea 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #cad9ea 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; OVERFLOW: hidden; BORDER-LEFT: #cad9ea 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #cad9ea 1px solid
+}
+.blockcode {
+	BORDER-RIGHT: #cad9ea 1px solid; BORDER-TOP: #cad9ea 4px solid; FONT-SIZE: 12px; BACKGROUND: url(../../images/default/portalbox_bg.gif) #fff repeat-x 0px 0px; MARGIN: 10px 20px; OVERFLOW: hidden; BORDER-LEFT: #cad9ea 1px solid; BORDER-BOTTOM: #cad9ea 1px solid
+}
+.quote {
+	BORDER-RIGHT: #cad9ea 1px solid; BORDER-TOP: #cad9ea 4px solid; FONT-SIZE: 12px; BACKGROUND: url(../../images/default/portalbox_bg.gif) #fff repeat-x 0px 0px; MARGIN: 10px 20px; OVERFLOW: hidden; BORDER-LEFT: #cad9ea 1px solid; BORDER-BOTTOM: #cad9ea 1px solid
+}
+.blockcode H5 {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; BORDER-LEFT: #fff 1px solid; COLOR: #666; LINE-HEIGHT: 26px; BORDER-BOTTOM: #cad9ea 1px solid
+}
+.quote H5 {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; BORDER-LEFT: #fff 1px solid; COLOR: #666; LINE-HEIGHT: 26px; BORDER-BOTTOM: #cad9ea 1px solid
+}
+.blockcode CODE {
+	MARGIN: 1em 1em 1em 3em; LINE-HEIGHT: 1.6em
+}
+.quote BLOCKQUOTE {
+	MARGIN: 1em 1em 1em 3em; LINE-HEIGHT: 1.6em
+}
+.blockcode CODE {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; FONT: 14px/1.4em "Courier New", Courier, monospace; PADDING-TOP: 5px
+}
+.blockcode EM {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FONT-SIZE: 12px; FLOAT: right; PADDING-BOTTOM: 0px; CURSOR: pointer; COLOR: #666; LINE-HEIGHT: 1em; PADDING-TOP: 5px
+}
+P.posttags {
+	MARGIN: 2em 0em 0.5em
+}
+P.posttags A {
+	FONT-WEIGHT: bold; MARGIN: 0px 4px; COLOR: #f00
+}
+.footoperation SPAN.posttags A {
+	FONT-WEIGHT: bold; MARGIN: 0px 4px; COLOR: #f00
+}
+P.posttags .postkeywords A {
+	COLOR: #090
+}
+.postmessage STRONG {
+	FONT-WEIGHT: bold
+}
+.postmessage EM {
+	COLOR: #666
+}
+.postmessage SPAN.t_tag {
+	CURSOR: pointer; BORDER-BOTTOM: #f00 1px solid; WHITE-SPACE: nowrap
+}
+.postmessage SPAN.t_tag:hover {
+	BORDER-BOTTOM: #ededce 1px solid
+}
+.mainbox TD.postauthor {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #e8f3fd; PADDING-BOTTOM: 5px; OVERFLOW: hidden; WIDTH: 180px; PADDING-TOP: 5px
+}
+.postauthor CITE {
+	DISPLAY: block; FONT-WEIGHT: bold; MARGIN-BOTTOM: 5px; OVERFLOW: hidden; BORDER-BOTTOM: #cad9ea 1px solid; HEIGHT: 21px
+}
+.postauthor CITE LABEL A {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FLOAT: right; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+DIV.avatar {
+	MARGIN: 5px; OVERFLOW: hidden; WIDTH: 160px; TEXT-ALIGN: center
+}
+.postauthor DT {
+	FLOAT: left; COLOR: #666; MARGIN-RIGHT: 0.5em
+}
+.postauthor DD {
+	LINE-HEIGHT: 1.6em; HEIGHT: 1.6em
+}
+.postauthor DT {
+	LINE-HEIGHT: 1.6em; HEIGHT: 1.6em
+}
+.postauthor DD {
+	OVERFLOW: hidden
+}
+.postauthor P {
+	MARGIN: 0px 10px
+}
+.postauthor P.customstatus {
+	COLOR: #666
+}
+.postauthor P EM {
+	COLOR: #090
+}
+.postauthor DT EM {
+	COLOR: #090
+}
+.postauthor UL {
+	MARGIN: 5px 10px; OVERFLOW: hidden; LINE-HEIGHT: 1.6em
+}
+.postauthor LI {
+	BACKGROUND-POSITION: 0px 50%; FLOAT: left; OVERFLOW: hidden; WIDTH: 49.5%; TEXT-INDENT: 22px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 1.6em
+}
+.postauthor LI.pm {
+	BACKGROUND-IMAGE: url(../../images/default/buddy_sendpm.gif)
+}
+.postauthor LI.buddy {
+	BACKGROUND-IMAGE: url(../../images/default/user_add.gif)
+}
+.postauthor LI.space {
+	BACKGROUND-IMAGE: url(../../images/default/forumlink.gif)
+}
+.postauthor LI.online {
+	BACKGROUND-IMAGE: url(../../images/default/user_online.gif); COLOR: #090
+}
+.postauthor LI.offline {
+	BACKGROUND-IMAGE: url(../../images/default/user_offline.gif); COLOR: #666
+}
+.postauthor LI.magic {
+	BACKGROUND-IMAGE: url(../../images/default/magic.gif)
+}
+.postauthor DL.profile {
+	MARGIN: 5px 10px; PADDING-TOP: 5px
+}
+.postauthor DIV.bio {
+	MARGIN: 5px 10px; PADDING-TOP: 5px
+}
+.taglinks {
+	BORDER-TOP: #cad9ea 1px dashed; MARGIN: 10px; OVERFLOW: hidden
+}
+.taglinks DIV {
+	FLOAT: left; WIDTH: 33%
+}
+.taglinks DIV H4 {
+	TEXT-INDENT: 14px; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.taglinks DIV H4 A {
+	COLOR: #069
+}
+.taglinks DIV UL {
+	BORDER-RIGHT: #cad9ea 1px dashed; MARGIN: 0px 10px 0px 20px
+}
+.taglinks DIV.noborder UL {
+	BORDER-RIGHT-STYLE: none
+}
+.taglinks DIV UL LI {
+	OVERFLOW: hidden; COLOR: #999; LINE-HEIGHT: 20px; LIST-STYLE-TYPE: none; HEIGHT: 20px
+}
+.taglinks DIV LI A:hover {
+	COLOR: #069
+}
+.taglinks DIV DL DT {
+	FLOAT: left; WIDTH: 100px; TEXT-ALIGN: center
+}
+.taglinks DIV DL DT IMG {
+	WIDTH: 76px; HEIGHT: 58px
+}
+.taglinks DIV DL DT P {
+	MARGIN: 10px; OVERFLOW: hidden; COLOR: #999
+}
+.taglinks DIV DL DD {
+	MARGIN-LEFT: 80px
+}

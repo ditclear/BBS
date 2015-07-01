@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.custom.i18n.resources" value="xwork-conversion"/> 
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.ui.theme" value="simple"></constant>
+    <constant name="struts.i18n.encoding" value="UTF-8" />
+    <include file="admin-struts.xml"/>
+    <package name="default" extends="struts-default">
+    	<interceptors>
+		<!-- 定义拦截器 -->
+		<interceptor name="timeCount" class="bbs.vienan.util.MyTimerInterceptor"/>
+		<interceptor name="myAuthorization" class="bbs.vienan.util.AuthInterceptor" />
+		<!-- 定义拦截器栈 -->
+		<interceptor-stack name="myStack">
+			<!--指定引用的拦截器-->
+			<interceptor-ref name="myAuthorization" >
+			<param name="excludeMethods">login,register,userNameOnly</param>
+			</interceptor-ref>
+			<interceptor-ref name="timeCount" />
+			<interceptor-ref name="defaultStack" />
+		</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="myStack"/>
+		<!-- 异常 -->
+        <global-results>
+        	<result name="login">/login.jsp</result>
+            <result name="sql">/exception.jsp</result>
+            <result name="my">/exception.jsp</result>
+        </global-results>
+	   <global-exception-mappings>
+	       <exception-mapping exception="java.sql.SQLException" result="sql"/>
+	       <exception-mapping exception="bbs.vienan.util.MyException" result="my"/>
+	   </global-exception-mappings>
+	   <!--action  -->
+       <action name="login" class="userAction" method="login">
+           <result name="error">/login.jsp</result>
+		   <result name="success" type="redirectAction">goIndex</result>
+		   <!-- <result name="success">/login_success.jsp</result>  -->
+       </action>
+       <action name="goIndex" class="goIndexAction">
+           <result name="success">/index.jsp</result>
+       </action>
+       <action name="register" class="userAction" method="register">
+           <result name="success">/login.jsp</result>
+           <result name="error">/register.jsp</result>
+           <result name="input">/register.jsp</result>
+           <param name="allowTypes">image/png,image/gif,image/jpeg,image/jpg</param>
+       </action>
+       <action name="showAllTopic" class="showAllTopicAction" method="showAllTopic">
+       	   <result name="success">/showAllTopic.jsp</result>
+       </action>
+       <action name="topicAdd" class="showAllTopicAction" method="topicAdd">
+       		<result name="success" type="redirectAction">showAllTopic?subItemID=${subItemID}</result>
+       		<result name="error">/newTopic.jsp</result>
+       </action>
+       <action name="showTopic" class="showTopicAction" method="showTopic">
+       		<result name="success">/showTopic.jsp</result>
+       </action>
+       <action name="replyAdd" class="showTopicAction" method="replyAdd">
+       		<result name="success" type="redirectAction">showTopic?topicID=${topicID}</result>
+       		<result name="error">/showTopic.jsp</result>
+       </action>
+       <action name="modify" class="userAction" method="modify">
+       		<result name="success">/login.jsp</result>
+       		<result name="error">/modifyUser.jsp</result>
+       		<result name="input">/modifyUser.jsp</result>
+       </action>
+       <action name="download" class="userAction" method="download">
+	   <result name="success" type="stream">
+			    <param name="contentType">application/octet-stream;charset=ISO8859-1 </param>  
+                <param name="inputName">downloadFile</param>  
+                <param name="contentDisposition">attachment;filename="${downloadFileName}"</param>  
+                <param name="bufferSize">4096</param>
+	   </result>
+		</action>
+		<action name="userNameOnly" class="userAction" method="userNameOnly">
+		
+		</action>
+		<action name="logout" class="userAction" method="logout">
+			<result name="success">/login.jsp</result>
+		</action>
+    </package>
+    <package name="example" extends="json-default">
+	<action name="userHobby" class="userHobbyAction">
+	<!-- 配置类型的json的Result -->
+	<result type="json">
+		<!-- 为该Result指定参数 -->
+		<param name="noCache">true</param>
+		<param name="contentType">text/html</param>
+	</result>
+	</action>
+	</package>
+</struts>

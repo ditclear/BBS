@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx-4.0.xsd "
+	default-autowire="byName">
+
+	<import resource="core.xml" />
+	<import resource="dao.xml" />
+	<import resource="biz.xml" />
+	<import resource="action.xml" />
+
+	<!-- <bean id="loggerBefore" class="bbs.vienan.aop.LoggerBefore"></bean>
+	<bean id="loggerAfterReturning" class="bbs.vienan.aop.LoggerAfterReturning" />
+	<bean id="errorLogger" class="bbs.vienan.aop.ErrorLogger"></bean>
+	<bean id="aroundLogger" class="bbs.vienan.aop.AroundLogger"></bean>
+	<aop:config>
+		<aop:pointcut id="pointcut"
+			expression="execution(* bbs.vienan.biz.UserBiz.*(..))" />
+		<aop:advisor pointcut-ref="pointcut" advice-ref="loggerBefore" />
+		<aop:advisor pointcut-ref="pointcut" advice-ref="loggerAfterReturning" />
+		<aop:advisor pointcut-ref="pointcut" advice-ref="errorLogger" />
+		<aop:advisor pointcut-ref="pointcut" advice-ref="aroundLogger" />
+	</aop:config> -->
+	<!--定义包含注解的增强类的实例 -->
+	<bean class="bbs.vienan.aop.UserBizLogger" id="userBizLogger"></bean>
+	<bean class="bbs.vienan.aop.ErrorLogger" id="errorLogger"></bean>
+	<!-- <bean class="bbs.vienan.aop.AroundLogger" id="aroundLogger"></bean> -->
+	<!-- <bean class="bbs.vienan.aop.AfterLogger" id="afterLogger"></bean> -->
+	<!-- 织入使用注解定义的增强，需要引入aop命名空间 -->
+	<aop:aspectj-autoproxy />
+	<aop:config>
+		<aop:pointcut expression="execution(* bbs.vienan.biz.UserBiz.*(..))"
+			id="pointcut" />
+		<aop:pointcut id="errorCut"
+			expression="execution(* bbs.vienan.biz.UserBiz.*(..))" />
+		<aop:aspect ref="userBizLogger">
+			<aop:before method="before" pointcut-ref="pointcut" />
+			<aop:after-returning method="afterReturning"
+				returning="returnValue" pointcut-ref="pointcut" />
+		</aop:aspect>
+		<aop:aspect ref="errorLogger">
+			<aop:after-throwing method="afterThrowing"
+				pointcut-ref="errorCut" throwing="e" />
+		</aop:aspect>
+	</aop:config>
+	<!-- <aop:config> <aop:pointcut expression="execution(* bbs.vienan.biz.UserBiz.*(..))" 
+		id="pointcut" /> <aop:aspect ref="aroundLogger"> <aop:around method="aroundLogger" 
+		pointcut-ref="pointcut" /> </aop:aspect> </aop:config> -->
+	<!-- <aop:config> <aop:pointcut expression="execution(* bbs.vienan.biz.UserBiz.*(..))" 
+		id="pointcut" /> <aop:aspect ref="afterLogger"> <aop:around method="afterLogger" 
+		pointcut-ref="pointcut" /> </aop:aspect> </aop:config> -->
+</beans>

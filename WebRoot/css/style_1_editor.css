@@ -1,0 +1,234 @@
+.editor_cell {
+	VERTICAL-ALIGN: top
+}
+#editor {
+	BORDER-RIGHT: #cad9ea 1px solid; BORDER-TOP: #cad9ea 1px solid; BACKGROUND: #f7f7f7; BORDER-LEFT: #cad9ea 1px solid; BORDER-BOTTOM: #cad9ea 0px solid
+}
+#editor TD {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-TOP-STYLE: none; PADDING-TOP: 2px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.editortoolbar TABLE {
+	WIDTH: auto
+}
+.editortoolbar A {
+	BORDER-RIGHT: #f7f7f7 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #f7f7f7 1px solid; DISPLAY: block; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #f7f7f7 1px solid; CURSOR: pointer; PADDING-TOP: 1px; BORDER-BOTTOM: #f7f7f7 1px solid
+}
+.editortoolbar .a {
+	BORDER-RIGHT: #f7f7f7 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #f7f7f7 1px solid; DISPLAY: block; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #f7f7f7 1px solid; CURSOR: pointer; PADDING-TOP: 1px; BORDER-BOTTOM: #f7f7f7 1px solid
+}
+.editortoolbar A.hover {
+	BORDER-RIGHT: #9db3c5 1px solid; BORDER-TOP: #9db3c5 1px solid; BORDER-LEFT: #9db3c5 1px solid; BORDER-BOTTOM: #9db3c5 1px solid; BACKGROUND-COLOR: #e8f3fd; TEXT-DECORATION: none
+}
+.editortoolbar A:hover {
+	BORDER-RIGHT: #9db3c5 1px solid; BORDER-TOP: #9db3c5 1px solid; BORDER-LEFT: #9db3c5 1px solid; BORDER-BOTTOM: #9db3c5 1px solid; BACKGROUND-COLOR: #e8f3fd; TEXT-DECORATION: none
+}
+.editortoolbar .a1 {
+	BORDER-RIGHT: #9db3c5 1px solid; BORDER-TOP: #9db3c5 1px solid; BORDER-LEFT: #9db3c5 1px solid; BORDER-BOTTOM: #9db3c5 1px solid; BACKGROUND-COLOR: #e8f3fd; TEXT-DECORATION: none
+}
+.editor_switcher_bar {
+	POSITION: relative
+}
+.editor_switcher_bar A {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN-RIGHT: 5px; PADDING-TOP: 0px
+}
+.editor_switcher_bar BUTTON {
+	BORDER-RIGHT: #cad9ea 1px solid; BORDER-TOP: #cad9ea 1px solid; FONT-WEIGHT: bold; BACKGROUND: #fff; MARGIN: 0px 2px; BORDER-LEFT: #cad9ea 1px solid; CURSOR: pointer; LINE-HEIGHT: 28px; BORDER-BOTTOM: #fff 1px solid; POSITION: relative; HEIGHT: 28px
+}
+* + HTML .editor_switcher_bar BUTTON {
+	TOP: 1px
+}
+* HTML .editor_switcher_bar BUTTON {
+	TOP: 1px
+}
+.editor_switcher_bar .editor_switcher {
+	FONT-WEIGHT: normal; BORDER-BOTTOM-COLOR: #cad9ea
+}
+.editor_text {
+	BORDER-RIGHT: #cad9ea 1px solid; BORDER-TOP: #cad9ea 1px solid; BORDER-LEFT: #cad9ea 1px solid; BORDER-BOTTOM: #cad9ea 1px solid
+}
+.editor_text TEXTAREA {
+	FONT: 14px/1.6em Helvetica, Arial, sans-serif; WIDTH: 99%; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.editor_button {
+	BORDER-RIGHT: #cad9ea 1px solid; BORDER-TOP: #cad9ea 0px solid; BACKGROUND: #f7f7f7; MARGIN-BOTTOM: 10px; BORDER-LEFT: #cad9ea 1px solid; BORDER-BOTTOM: #cad9ea 0px solid
+}
+.editor_button BUTTON {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 1px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: 0px; COLOR: #069; BORDER-RIGHT-WIDTH: 0px
+}
+.editor_attach {
+	BORDER-RIGHT: #cad9ea 1px solid; BORDER-TOP: #cad9ea 1px solid; BORDER-LEFT: #cad9ea 1px solid; BORDER-BOTTOM: #cad9ea 1px solid
+}
+#wysiwyg {
+	FONT: 14px/1.6em Helvetica, Arial, sans-serif
+}
+#wysiwyg * {
+	LINE-HEIGHT: normal
+}
+#wysiwyg A {
+	COLOR: #069! important; TEXT-DECORATION: underline
+}
+#wysiwyg LI {
+	MARGIN-LEFT: 2em
+}
+#wysiwyg STRONG {
+	FONT-WEIGHT: bold
+}
+#wysiwyg B {
+	FONT-WEIGHT: bold
+}
+#wysiwyg EM {
+	FONT-STYLE: italic
+}
+#wysiwyg I {
+	FONT-STYLE: italic
+}
+#wysiwyg P {
+	MARGIN: 0px
+}
+#wysiwyg TABLE TD {
+	BORDER-RIGHT: #9db3c5 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #9db3c5 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #9db3c5 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #9db3c5 1px solid
+}
+.fontname_menu {
+	WIDTH: 97px
+}
+.fontsize_menu {
+	WIDTH: 27px; LINE-HEIGHT: normal
+}
+.fontsize_menu UL LI {
+	LINE-HEIGHT: normal
+}
+#posteditor_popup_table_menu {
+	WIDTH: 220px
+}
+.fontname_menu LI {
+	CURSOR: pointer
+}
+.fontsize_menu LI {
+	CURSOR: pointer
+}
+.editor_colornormal {
+	PADDING-RIGHT: 2px! important; PADDING-LEFT: 2px! important; PADDING-BOTTOM: 2px! important; BORDER-TOP-STYLE: none! important; PADDING-TOP: 2px! important; BORDER-RIGHT-STYLE: none! important; BORDER-LEFT-STYLE: none! important; BORDER-BOTTOM-STYLE: none! important
+}
+.editor_colorhover {
+	PADDING-RIGHT: 2px! important; PADDING-LEFT: 2px! important; PADDING-BOTTOM: 2px! important; BORDER-TOP-STYLE: none! important; PADDING-TOP: 2px! important; BORDER-RIGHT-STYLE: none! important; BORDER-LEFT-STYLE: none! important; BORDER-BOTTOM-STYLE: none! important
+}
+.editor_colornormal DIV {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; OVERFLOW: hidden; BORDER-LEFT: #fff 1px solid; WIDTH: 10px; CURSOR: pointer; BORDER-BOTTOM: #fff 1px solid; HEIGHT: 10px
+}
+.editor_colorhover DIV {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: #000 1px solid; OVERFLOW: hidden; BORDER-LEFT: #000 1px solid; WIDTH: 10px; CURSOR: pointer; BORDER-BOTTOM: #000 1px solid; HEIGHT: 10px
+}
+.editor {
+	BORDER-RIGHT: #cad9ea 1px solid; BORDER-TOP: #cad9ea 1px solid; BACKGROUND: #f7f7f7; BORDER-LEFT: #cad9ea 1px solid; BORDER-BOTTOM: #cad9ea 0px solid; TEXT-ALIGN: left
+}
+.editorrow {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; OVERFLOW: hidden; PADDING-TOP: 3px
+}
+* HTML .editor DIV {
+	HEIGHT: 1%
+}
+.editor EM {
+	BORDER-RIGHT: #f7f7f7 1px solid; BORDER-TOP: #f7f7f7 1px solid; DISPLAY: block; BACKGROUND: url(../../images/common/editor.gif) no-repeat 0px -701px; FLOAT: left; MARGIN: 0px 5px; BORDER-LEFT: #f7f7f7 1px solid; WIDTH: 3px; BORDER-BOTTOM: #f7f7f7 1px solid; HEIGHT: 20px
+}
+.editor A {
+	BORDER-RIGHT: #f7f7f7 1px solid; BORDER-TOP: #f7f7f7 1px solid; DISPLAY: block; BACKGROUND: url(../../images/common/editor.gif) no-repeat 0px 30px; FLOAT: left; MARGIN-BOTTOM: 6px; OVERFLOW: hidden; BORDER-LEFT: #f7f7f7 1px solid; WIDTH: 21px; TEXT-INDENT: -9999px; BORDER-BOTTOM: #f7f7f7 1px solid; HEIGHT: 20px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+A.oneditor {
+	BORDER-RIGHT: #9db3c5 1px solid; BORDER-TOP: #9db3c5 1px solid; BACKGROUND: url(../../images/common/editor.gif) #e8f3fd no-repeat 0px 21px; BORDER-LEFT: #9db3c5 1px solid; BORDER-BOTTOM: #9db3c5 1px solid
+}
+.editor A:hover {
+	BORDER-RIGHT: #9db3c5 1px solid; BORDER-TOP: #9db3c5 1px solid; BACKGROUND: url(../../images/common/editor.gif) #e8f3fd no-repeat 0px 21px; BORDER-LEFT: #9db3c5 1px solid; BORDER-BOTTOM: #9db3c5 1px solid
+}
+#posteditor_cmd_bold {
+	BACKGROUND-POSITION: 0px 0px
+}
+#posteditor_cmd_italic {
+	BACKGROUND-POSITION: 0px -21px
+}
+#posteditor_cmd_underline {
+	BACKGROUND-POSITION: 0px -41px
+}
+#posteditor_popup_fontname {
+	BACKGROUND-POSITION: 106px -721px; WIDTH: 116px; TEXT-INDENT: 2px; MARGIN-RIGHT: 6px
+}
+#posteditor_popup_fontsize {
+	BACKGROUND-POSITION: 30px -721px; WIDTH: 40px; TEXT-INDENT: 2px; MARGIN-RIGHT: 6px
+}
+#posteditor_popup_forecolor {
+	BACKGROUND-POSITION: 30px -721px; WIDTH: 40px; TEXT-INDENT: 0px
+}
+#posteditor_cmd_justifyleft {
+	BACKGROUND-POSITION: 0px -61px
+}
+#posteditor_cmd_justifycenter {
+	BACKGROUND-POSITION: 0px -81px
+}
+#posteditor_cmd_justifyright {
+	BACKGROUND-POSITION: 0px -101px
+}
+#posteditor_cmd_createlink {
+	BACKGROUND-POSITION: 0px -121px
+}
+#posteditor_cmd_email {
+	BACKGROUND-POSITION: 0px -141px
+}
+#posteditor_cmd_insertimage {
+	BACKGROUND-POSITION: 0px -161px
+}
+#posteditor_cmd_removeformat {
+	BACKGROUND-POSITION: 0px -181px
+}
+#posteditor_cmd_unlink {
+	BACKGROUND-POSITION: 0px -201px
+}
+#posteditor_cmd_undo {
+	BACKGROUND-POSITION: 0px -221px
+}
+#posteditor_cmd_redo {
+	BACKGROUND-POSITION: 0px -241px
+}
+#posteditor_cmd_insertorderedlist {
+	BACKGROUND-POSITION: 0px -261px
+}
+#posteditor_cmd_insertunorderedlist {
+	BACKGROUND-POSITION: 0px -281px
+}
+#posteditor_cmd_indent {
+	BACKGROUND-POSITION: 0px -301px
+}
+#posteditor_cmd_outdent {
+	BACKGROUND-POSITION: 0px -321px
+}
+#posteditor_cmd_floatleft {
+	BACKGROUND-POSITION: 0px -341px
+}
+#posteditor_cmd_floatright {
+	BACKGROUND-POSITION: 0px -361px
+}
+#posteditor_cmd_table {
+	BACKGROUND-POSITION: 0px -381px
+}
+#posteditor_cmd_free {
+	BACKGROUND-POSITION: 0px -401px
+}
+#posteditor_cmd_hide {
+	BACKGROUND-POSITION: 0px -421px
+}
+#posteditor_cmd_quote {
+	BACKGROUND-POSITION: 0px -441px
+}
+#posteditor_cmd_code {
+	BACKGROUND-POSITION: 0px -461px
+}
+#posteditor_popup_media {
+	BACKGROUND-POSITION: 0px -541px
+}
+A.editormode {
+	FLOAT: right; WIDTH: 60px; TEXT-ALIGN: center
+}
+A.plugeditor {
+	BACKGROUND-POSITION: 0px 40px; TEXT-INDENT: 0px
+}
+A.upmedia {
+	WIDTH: 68px
+}

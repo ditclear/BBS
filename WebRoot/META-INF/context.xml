@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+     <Resource 
+         name="jdbc/OracleDataSource" 
+         auth="Container"
+         factory="org.apache.naming.factory.BeanFactory" 
+         type="com.mchange.v2.c3p0.ComboPooledDataSource"
+         driverClass="oracle.jdbc.OracleDriver"
+         idleConnectionTestPeriod="60"
+         maxPoolSize="50" 
+         minPoolSize="2"
+         acquireIncrement="2" 
+         jdbcUrl="jdbc:oracle:thin:@localhost:1521:orcl"
+         user="system"
+         password="System123456"/>
+</Context>

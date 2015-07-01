@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+ 	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+	<package name="admin" extends="struts-default">
+		<action name="addUser" class="adminAction" method="addUser">
+           <result name="success">/admin/NewUser.jsp</result>
+           <result name="error">/admin/NewUser.jsp</result>
+       </action>
+       <action name="findAllUser" class="adminAction" method="findAllUser">
+           <result name="success">/admin/BrowseUser.jsp</result>
+       </action>
+       <action name="userDelete" class="adminAction" method="userDelete">
+           <result name="success" type="redirectAction">findAllUser</result>
+           <result name="error">/admin/BrowseUser.jsp</result>
+       </action>
+       <action name="findAllItem" class="adminAction" method="findAllItem">
+           <result name="success">/admin/BrowseItem.jsp</result>
+       </action>
+       <action name="itemAdd" class="adminAction" method="itemAdd">
+           <result name="success">/admin/NewItem.jsp</result>
+       </action>
+       <action name="itemDelete" class="adminAction" method="itemDelete">
+           <result name="success" type="redirectAction">findAllItem</result>
+           <result name="error">/admin/BrowseItem.jsp</result>
+       </action>
+        <action name="findAllSubItem" class="adminAction" method="findAllSubItem">
+           <result name="success">/admin/BrowseSubItem.jsp</result>
+       </action>
+       <action name="subItemAdd" class="adminAction" method="subItemAdd">
+           <result name="success">/admin/NewSubItem.jsp</result>
+           <result name="error">/admin/NewSubItem.jsp</result>
+       </action>
+       <action name="subItemDelete" class="adminAction" method="subItemDelete">
+           <result name="success" type="redirectAction">findAllSubItem</result>
+           <result name="error">/admin/BrowseSubItem.jsp</result>
+       </action>
+	</package>
+</struts>

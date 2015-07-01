@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE validators PUBLIC 
+  "-//Apache Struts//XWork Validator 1.0.2//EN"
+  "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+<validators>
+	<field name="username">
+	<field-validator type="requiredstring">
+		<param name="trim">true</param>
+		<message>${getText("username.requried")}</message>
+	</field-validator>
+	<field-validator type="stringlength">
+		<param name="minLength">6</param>
+		<param name="maxLength">15</param>
+		<message>${getText("username.regex")}</message>
+	</field-validator>
+	</field>
+	<field name="password">
+	<field-validator type="requiredstring">
+		<param name="trim">true</param>
+		<message>${getText("password.requried")}</message>
+	</field-validator>
+	<field-validator type="stringlength">
+		<param name="minLength">6</param>
+		<param name="maxLength">15</param>
+		<message>${getText("password.regex")}</message>
+	</field-validator>
+	</field>
+	<field name="repassword">
+	<field-validator type="requiredstring">
+		<param name="trim">true</param>
+		<message>${getText("repassword.requried")}</message>
+	</field-validator>
+	<field-validator type="stringlength">
+		<param name="minLength">6</param>
+		<param name="maxLength">15</param>
+		<message>${getText("repassword.regex")}</message>
+	</field-validator>
+	<field-validator type="fieldexpression">
+            <param name="expression"><![CDATA[repassword==password]]></param>
+            <message>${getText("equalpass")}</message>
+    </field-validator>
+	</field>
+<!-- 	<field name="age">
+	<field-validator type="Long">
+		<param name="min">1</param>
+		<param name="max">150</param>
+		<message>${getText("age.requried")}</message>
+	</field-validator>
+	</field> -->
+	<field name="birthDay">
+		<field-validator type="date">
+		<param name="min">1950-01-01</param>
+		<param name="max">2015-03-24</param>
+		<message>${getText("birthDay.requried")}</message>
+	</field-validator>
+	</field>
+</validators>
